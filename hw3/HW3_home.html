@@ -1,0 +1,234 @@
+ <!DOCTYPE html>
+<html>
+	<head>
+		<title>Home | Menu</title>
+		
+		<style>
+		body, html{
+			margin: 0;
+			padding: 0;
+			overflow-x: hidden;
+		}
+			/*.entire{
+			margin-left: 62px;
+			}*/
+		
+			ul {
+			  list-style-type: none;
+			  margin: 0;
+			  margin-left: 58px;
+			  padding: 0;
+			  overflow: hidden;
+			}
+
+			li {
+			  float: left;
+			}
+
+			li a {
+			  display: block;
+			  color: rgb(71,24,218);
+			  font-family: Arial, Helvetica, sans-serif;
+			  font-size: 14px;
+			  padding: 8px;
+			  text-decoration: none;
+			  position: relative;
+			}
+			
+			a:active {
+			  color: red;
+			}
+			a:visited {
+			  color: purple;
+			}
+			.parallax {
+			  /* The image used */
+			  /*margin-top: 28px;*/
+			  margin-top: 28px;
+			  margin-left: 65px;
+			  
+			  /*width: 100%;*/
+			  background-image: url("Restaurant.jpg");
+			  
+
+			  /* Set a specific height */
+			  height: 400px; 
+			  width: 970px;
+
+			  /* Create the parallax scrolling effect */
+			  background-attachment: fixed;
+			  background-position: 70px, 50px;
+			  background-repeat: no-repeat;
+			  /* background-size: cover; */
+			  background-size: 700px 600px;
+			}
+			
+			
+			.textInImage{
+				color: rgb(255,255,255);
+				font-family: courier-new;
+				 position: relative;
+				left: 190px;
+				top: 160px;
+				font-size: 20px;
+				
+			}
+			
+			.buttonInImage{
+				position: relative;
+				top: 180px;
+				left: 530px;
+				transform: translate(-50%, -50%);
+				-ms-transform: translate(-50%, -50%);
+				background-color: white;
+				border: 4px double #000000;
+				padding: 4px 15px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;
+				margin: 4px 2px;
+				cursor: pointer;
+			}
+			div.middleBigText{
+				margin-left: 280px;
+				color: rgb(130,7,127);
+				width:1000px; 
+				margin-bottom: -40px;
+				
+				font-family: Open-sans, sans-serif;
+				font-weight: 700;
+				font-size: 20px;
+				padding-top: 10px;
+				text-decoration-line: underline;
+				text-decoration-style: double;
+			}
+			
+			.buttonInsideFloatImage{
+				height: 62px;
+				width: 165px;
+				background-color: white;
+				text-align: center;
+				vertical-align: middle;
+				margin-left: 70px;
+				font-weight: 20px;
+				margin-top: 84px;
+				border: 1px gray;
+				
+			}
+			#odd {
+				float: left;
+			}
+			#even {
+				margin-left: 70px;
+			  float: right;
+			}
+			.test1 {
+			text-top: 50%;
+				width: 700px;
+				position: static;
+				margin-left: 70px;
+				margin-top: 50px;
+				float: left;
+				text-top: 50%
+			}
+			div.details{
+				margin-left: 50px;
+			}
+		</style>
+
+
+	</head>
+	<body>
+	
+		<h1 style="width:1000px; margin-top:14px; color:rgb(0,0,128);margin-left: 305px;">Trojan Caf&#233;</h1>
+		
+		<!--
+		<h1 id="home" style="position: relative; margin-top:14px; color:rgb(106, 90, 205);margin-left: 305px;">Trojan Caf&#233;</h1> -->
+		<div style= "width:1000px; margin-top:-8px; height:32px; background-color: rgb(250,234,214)">
+		<ul>
+		  <li><a href="#home">Home</a></li>
+		  <li><a href="#italian">Italian</a></li>
+		  <li><a href="#indian">Indian</a></li>
+		  <li><a href="#japanese">Japanese</a></li>
+		  <li><a href="#desserts">Desserts</a></li>
+		  <li><a href="welcome.html" target="_blank">About</a></li>
+		  <li><a href="welcome.html" target="_blank">Contact</a></li>
+		</ul> 
+		</div>
+		
+		<div class = "parallax">
+			<div class= "textInImage">
+				<h1> Enjoy the Scenic View!!</h1> 
+			</div>
+			
+			<div class= "buttonInImage"><span style="font-family: Arial, Helvetica, sans-serif; font-size: 12px;">Book Your Reservation</span>
+			</div>
+		</div>
+		
+		
+		<br>
+		<div class ="middleBigText">Explore Our Delicious Cuisines</div>
+		
+		
+		<p id="italian">
+		
+		<div class="test1">
+			<img id= "odd" src="Italian_Cuisine.jpg" alt="Italian" style="width:305px;height:230px;margin-right:15px;border: 8px solid rgb(255,229,228);">
+			<br><br><br><br>
+			<span style="font-weight: bold; color:rgb(32, 64, 194); margin-left: 50px">Italy's finest:</span><br>
+			
+			<span style="margin-left: 50px">From our Lasagna to our Protien Penne, we </span><br>
+			<span style="margin-left: 50px">have delicious options for every taste!</span><br>
+			
+			
+		</div>
+		
+		</p>
+		<br>
+		<br>
+		<p id="indian">
+		
+		<div class="test1">
+			<img id= "even" src="Indian_Cuisine.jpg" alt="Indian" style="width:305px;height:230px; border: 8px solid rgb(170, 216, 227);">
+			<br><br><br><br>
+			<span style="font-weight: bold; color:rgb(52, 75, 149);">India's Flavors:</span><br>
+			
+			<div class = "topicTitle">Our dishes are blended with masterful </div>
+			<div class = "topicTitle">savory spices</div>
+		</div>
+		
+		</p>
+		
+		<p id="japanese">
+		
+		<div class="test1">
+			<img id= "odd" src="Japanese_Cuisine.jpg" alt="Japanese" style="width:305px;height:230px;margin-right:15px;border: 8px solid rgb(255,229,228);">
+			<br><br><br><br>
+			<span style="font-weight: bold; color:rgb(53, 72, 182); margin-left: 50px">Japanese Cuisine:</span><br>
+			
+			<span style="margin-left: 50px">Delicious dining options from Sake to Sushi </span><br>
+
+			
+			
+		</div>
+		
+		</p>
+		
+		<p id="desserts">
+		
+		<div class="test1">
+			<img id= "even" src="Desserts.jpg" alt="Desserts" style="width:305px;height:230px;border: 8px solid rgb(170, 216, 227);">
+			<br><br><br><br>
+			<span style="font-weight: bold; color:rgb(50, 66, 181);">Desserts:</span><br>
+			
+			<div class = "topicTitle">From Italian Tiramisu to Indian Gulab </div>
+			<div class = "topicTitle">Jamun</div>
+		</div>
+		
+		</p>
+		
+		<div style="margin-top: 13px; width: 770px; position: static; margin-left: 70px; margin-top: 50px; float: left;"> </div>
+	
+	</body>
+</html> 
